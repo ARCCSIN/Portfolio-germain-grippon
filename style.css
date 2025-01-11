@@ -1,0 +1,152 @@
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: 'raleway', sans-serif;
+    background-color: #FFFFFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow:  0px 10px 30px rgba(0, 0 , 0, 0.1);
+}
+
+header a {
+    color: #020202;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+main {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F4EEE4;
+}
+
+nav {
+    width: auto;
+    background-color: #E7DED1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+}
+
+h1 {
+    color: #4F4A43;
+    font-size: 2em;
+    margin: auto;
+    margin-bottom: 1%;
+}
+p{
+    margin: auto;
+    margin-bottom: 1%;
+}
+
+button {
+    background-color: #333;
+    color: #4F4A43;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0.1%;
+    gap: 0.1%;
+    object-fit: cover;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+
+aside {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5% 8% 0.5% 8%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F4EEE4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 25%; 
+    min-width: 300px; 
+    height: auto; 
+    max-height: 80%; 
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 0.5em; 
+}
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.social-icons a {
+    display: inline-block; 
+    margin: 0 0.5em; 
+}
+
+.social-icons a img {
+    height: 30px; 
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    background-color: #EFEFEF;
+    color: #020202;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+}
+.right-bottom{
+    text-align: right;
+    font-family: 'raleway', sans-serif;
+    font-size: 0.5em;
+}
